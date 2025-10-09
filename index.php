@@ -15,4 +15,6 @@ if ($conn) {
     echo "❌ Connection failed!";
     die(print_r(sqlsrv_errors(), true));
 }
+
+echo "Hi, this is a testing app";
 ?>
